@@ -813,7 +813,6 @@ LoadBluePage:
 	dw sBoxMonOTs
 	dw wBufferMonOT
 LoadOrangePage:
-        +LoadOrangePage:
 	call .placeCaughtLocation
 	ld de, MetAtMapString
 	hlcoord 1, 9
